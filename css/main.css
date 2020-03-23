@@ -4,12 +4,31 @@ body {
     font-family: 'Playfair Display', serif;
     font-weight: bold;
 }
+.blue {
+    background-color: #5273C6;
+}
+i {
+    float: right;
+}
+.fa-bars {
+    color: #ffffff;
+}
+#logo {
+    top: 6.5rem;
+}
+.fa-times {
+    color: #000000;
+}
+.no-margin {
+    margin: 0;
+}
 p {
     font-weight: normal;
     font-size: 12px;
 }
-.no-margin {
-    margin: 0;
+.hamburger-links {
+    display: flex;
+    flex-direction: column;
 }
 
 #hero {
