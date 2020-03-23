@@ -7,6 +7,9 @@ body {
 .blue {
     background-color: #5273C6;
 }
+main {
+    background-color: #ddd1b3;
+}
 i {
     float: right;
 }
@@ -21,6 +24,9 @@ i {
 }
 .no-margin {
     margin: 0;
+}
+.no-padding {
+    padding: 0;
 }
 p {
     font-weight: normal;
@@ -41,12 +47,18 @@ p {
     height: 100%;
     background: radial-gradient(50% 50% at 50% 50%, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
 }
-main {
-    background-color: #ddd1b3;
-}
 .full-round {
     border-radius: 10rem;
 }
 #the-map {
     height: 15rem;
+}
+
+.sliced {
+    background-image: url("../images/sliced.jpeg");
+}
+.card-back {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    bottom: 0;
 }
