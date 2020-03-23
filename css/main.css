@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+
+body {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+}
+p {
+    font-weight: normal;
+    font-size: 12px;
+}
+.no-margin {
+    margin: 0;
+}
+
+#hero {
+    height: 11.5rem;
+    background-image: url("../images/hero.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+#radial-gradient {
+    height: 100%;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+}
+main {
+    background-color: #ddd1b3;
+}
+.full-round {
+    border-radius: 10rem;
+}
+#the-map {
+    height: 15rem;
+}
