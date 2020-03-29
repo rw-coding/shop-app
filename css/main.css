@@ -4,6 +4,9 @@ body {
     font-family: 'Playfair Display', serif;
     font-weight: bold;
 }
+h5 {
+    font-size: 1rem;
+}
 .blue {
     background-color: #5273C6;
 }
@@ -33,11 +36,18 @@ i {
 }
 p {
     font-weight: normal;
-    font-size: 12px;
+    font-size: 0.9rem;
+    margin: 0;
 }
 .hamburger-links {
     display: flex;
     flex-direction: column;
+}
+.full-size {
+    height: 100vh;
+}
+hr {
+    margin: 0;
 }
 
 #hero {
