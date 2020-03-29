@@ -88,3 +88,11 @@ hr {
     text-align: center;
     color: #ffffff;
 }
+input, textarea {
+    font-size: 0.8rem;
+    border-color: #2a2a2a;
+    border-radius: 2px;
+}
+textarea {
+    height: 25%;
+}
