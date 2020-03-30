@@ -12,7 +12,7 @@
     <body>
         <header class="container-full blue">
             <img src="images/logo.svg" class="col-4 offset-4 my-1">
-            <i class="fas fa-bars mt-3 mr-3"></i>
+            <i class="fas fa-bars mt-3 mr-3" onclick="openmenu()"></i>
         </header>
         <main>
             <div class="container py-3">
@@ -59,12 +59,12 @@
 
             </div>
 
-            <div id="hamburger-overlay" class="bg-white container-full">
+            <div class="hamburger-overlay bg-white container-full">
                 <div id="hamburger-content">
-                    <i class="fas fa-times mt-3 mr-3"></i>
+                    <i class="fas fa-times mt-3 mr-3" onclick="closemenu()"></i>
                     <div class="hamburger-links container pb-2">
                         <a href="home.html" class="my-3">Home</a>
-                        <a href="shop.html" class="my-3">Shop</a>
+                        <a href="shop.html" class="my-3 active-text">Shop</a>
                         <a href="cart.html" class="my-3">Cart</a>
                         <a href="about.html" class="my-3">About</a>
                         <a href="contact.html" class="my-3">Contact</a>
@@ -75,7 +75,6 @@
 
         <script src="https://kit.fontawesome.com/ad64042f34.js" crossorigin="anonymous"></script>
         <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-        <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"></script>
         <script src="js/main.js"></script>
     </body>
 </html>

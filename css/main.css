@@ -10,14 +10,21 @@ h5 {
 .blue {
     background-color: #5273C6;
 }
-.active-blue {
+.active {
     background-color: #2B478E;
+}
+.active-text {
+    color: #2B478E;
+    pointer-events: none;
 }
 main {
     background-color: #ddd1b3;
 }
 i {
     float: right;
+}
+a {
+    color: #2a2a2a;
 }
 .fa-bars {
     color: #ffffff;
@@ -39,9 +46,17 @@ p {
     font-size: 0.9rem;
     margin: 0;
 }
+.hamburger-overlay {
+    z-index: 1;
+    width: 0;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+}
 .hamburger-links {
     display: flex;
     flex-direction: column;
+    opacity: 0;
 }
 .full-size {
     height: 100vh;

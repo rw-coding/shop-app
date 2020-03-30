@@ -13,7 +13,7 @@
         <header class="container-full">
             <div id="hero">
                 <div id="radial-gradient">
-                    <i class="fas fa-bars mt-3 mr-3"></i>
+                    <i class="fas fa-bars mt-3 mr-3" onclick="openmenu()"></i>
                     <img src="images/logo.svg" id="logo" class="col-6">
                 </div>
             </div>
@@ -34,11 +34,11 @@
 
                 </div>
             </div>
-            <div id="hamburger-overlay" class="bg-white container-full">
+            <div class="bg-white container-full hamburger-overlay">
                 <div id="hamburger-content">
-                    <i class="fas fa-times mt-3 mr-3"></i>
+                    <i class="fas fa-times mt-3 mr-3" onclick="closemenu()"></i>
                     <div class="hamburger-links container pb-2">
-                        <a href="index.html" class="my-3">Home</a>
+                        <a href="index.html" class="my-3 active-text">Home</a>
                         <a href="shop.html" class="my-3">Shop</a>
                         <a href="cart.html" class="my-3">Cart</a>
                         <a href="about.html" class="my-3">About</a>
@@ -50,7 +50,8 @@
 
         <script src="https://kit.fontawesome.com/ad64042f34.js" crossorigin="anonymous"></script>
         <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-        <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"></script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDGHno1sbyi2aRct2MCy6gtdhJRMOQlGXY&callback=initMap"></script>
+        <script src="js/map.js"></script>
         <script src="js/main.js"></script>
     </body>
 </html>

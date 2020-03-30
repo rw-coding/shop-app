@@ -12,7 +12,7 @@
     <body>
         <header class="container-full blue">
             <img src="images/logo.svg" class="col-4 offset-4 my-1">
-            <i class="fas fa-bars mt-3 mr-3"></i>
+            <i class="fas fa-bars mt-3 mr-3" onclick="openmenu()"></i>
         </header>
         <main>
             <div class="container full-size pt-2">
@@ -23,7 +23,7 @@
                     for sandwhiches, toast, or whatever else you may plan to use it for.
                 </p>
                 <div class="col-12 row no-margin no-padding">
-                    <div class="product-button active-blue left-button col-4 py-2">
+                    <div class="product-button active left-button col-4 py-2">
                         Whole Wheat
                     </div>
                     <div class="product-button blue col-4 py-2">
@@ -34,7 +34,7 @@
                     </div>
                 </div>
                 <div class="col-12 mt-3 row no-margin no-padding">
-                    <div class="product-button active-blue left-button col-6 py-2">
+                    <div class="product-button active left-button col-6 py-2">
                         Half Loaf
                     </div>
                     <div class="product-button blue right-button col-6 py-2">
@@ -61,9 +61,9 @@
                 </div>
             </div>
 
-            <div id="hamburger-overlay" class="bg-white container-full">
+            <div class="hamburger-overlay bg-white container-full">
                 <div id="hamburger-content">
-                    <i class="fas fa-times mt-3 mr-3"></i>
+                    <i class="fas fa-times mt-3 mr-3" onclick="closemenu()"></i>
                     <div class="hamburger-links container pb-2">
                         <a href="index.html" class="my-3">Home</a>
                         <a href="shop.html" class="my-3">Shop</a>
@@ -77,7 +77,6 @@
 
         <script src="https://kit.fontawesome.com/ad64042f34.js" crossorigin="anonymous"></script>
         <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-        <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"></script>
         <script src="js/main.js"></script>
     </body>
 </html>

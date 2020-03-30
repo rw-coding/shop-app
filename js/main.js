@@ -1,9 +1,11 @@
-let nashville = {lat: 36.174465, lng: -86.767960};
-let mapEmbed = new google.maps.Map(document.getElementById("the-map"), {zoom: 4, center: nashville});
+let menu = $(".hamburger-overlay");
+let links = $(".hamburger-links");
 
-function open() {
-    $(".hamburger-overlay").css("width","100%");
+function openmenu() {
+    menu.animate({width: "100%"}, 600);
+    links.animate({opacity: "1"}, 600);
 }
-function close() {
-    $(".hamburger-overlay").css("width","0");
+function closemenu() {
+    menu.animate({width: "0"}, 600);
+    links.animate({opacity: "0"}, 600);
 }
